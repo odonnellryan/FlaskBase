@@ -7,7 +7,6 @@ class BaseModel(Model):
         database = db # This model uses the "people.db" database.
 
 class Person(Model):
-    name = CharField()
 
     name = CharField()
     email = CharField()
